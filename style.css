@@ -500,6 +500,9 @@ transform-origin: 0 0;
     .testimonial-name {
         font-size: 0.9rem;
     }
+    .testimonial-display{
+        margin-top: 15px;
+    }
 }
 
 
