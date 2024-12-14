@@ -18,6 +18,8 @@
     <!-- FontAwesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 
     <!-- custom css -->
@@ -123,12 +125,12 @@
                 <h3 class="section-heading">About The Book</h3>
                 <div class="row">
                     <div class="col col-lg-5 remove-mobile"> 
-                        <div>
+                        <div data-aos="fade-right">
                             <img src="./book.png" alt="">
                         </div>
                     </div>
                     <div class="col col-lg-7 ">
-                        <div class="section-content mx-3">
+                        <div data-aos="fade-left" class="section-content mx-3">
                             <p>
                                 This book is designed as a companion for your journey into the world of careers within the pharmaceutical
                                 industry. Each
@@ -168,7 +170,7 @@
                 <h3 class="section-heading">Author</h3>
                 <div class="row">
                     <div class="col col-lg-7">
-                        <div class="section-content mx-3">
+                        <div data-aos="fade-right" class="section-content mx-3">
                             <p>
                                 SVS Guptha Mulukuri is a dedicated professional with over 14 years of experience in the pharmaceutical industry. With a
                                 passion for driving innovation and bolstering organizational excellence, he has consistently contributed to
@@ -187,7 +189,7 @@
                         </div>
                     </div>
                     <div class="col col-lg-5 remove-mobile">
-                        <div class="mx-3">
+                        <div data-aos="fade-left" class="mx-3">
                             <img src="./Author.jpeg" alt="">
                         </div>
                     </div>
@@ -203,7 +205,7 @@
                 <div class="row">
                     <!-- Left side - Form -->
                     <div class="col col-lg-6 col-md-12 col-sm-12">
-                        <div class="testimonial-form mx-3">
+                        <div data-aos="fade-right" class="testimonial-form mx-3">
                             <h3>Submit Your Testimonial</h3>
                             <form action="#" method="post">
                                 <div class="form-group">
@@ -220,7 +222,7 @@
             
                     <!-- Right side - Display Testimonials -->
                     <div class="col col-lg-6 col-md-12 col-sm-12">
-                        <div class="testimonial-display mx-3" style=" overflow-y: scroll;height: 55vh;">
+                        <div data-aos="fade-left" class="testimonial-display mx-3" style=" overflow-y: scroll;height: 55vh;">
                             <h3>What People Are Saying</h3>
                             <div class="testimonial-item">
                                 <p class="testimonial-comment">"This book has changed the way I think about careers in the
@@ -283,4 +285,7 @@
         </section>
     </div>
 </body>
+<script>
+    AOS.init();
+</script>
 </html>

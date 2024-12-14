@@ -284,13 +284,16 @@ transform-origin: 0 0;
 /* For small screens (mobile devices) */
 @media (max-width: 767px) {
     #book {
-        top: 30%;
+        top: 40%;
     }
     #flip{
-        top: 30%;
+        top: 40%;
     }
     nav {
         font-size: 14px; /* Smaller navbar text */
+    }
+    .content{
+        margin-top: 75vh;
     }
 }
 
