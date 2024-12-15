@@ -548,6 +548,13 @@ h4 {
     display: block !important;
     margin-left: 5rem;
   }
+  .mobile-row{
+    justify-content: center;
+    flex-direction: column;
+  }
+  .profile{
+    padding-bottom: 30px;
+  }
 }
 
 .buy-button {
